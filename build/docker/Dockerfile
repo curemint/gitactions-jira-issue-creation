@@ -40,4 +40,4 @@ RUN mkdir -p /github/workspace
 
 WORKDIR /github/workspace
 
-ENTRYPOINT ["jira-issue-creation"]
+ENTRYPOINT ["gitactions-jira-issue-creation"]

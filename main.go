@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	jira "github.com/andygrunwald/go-jira"
-	"github.com/bryan-nice/jira-issue-creation/configuration"
+	"github.com/curemint/gitactions-jira-issue-creation/configuration"
 	"github.com/pkg/errors"
 	"log"
 	"os"

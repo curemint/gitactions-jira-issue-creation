@@ -1,4 +1,4 @@
-module github.com/bryan-nice/jira-issue-creation
+module github.com/curemint/gitactions-jira-issue-creation
 
 go 1.13
 
