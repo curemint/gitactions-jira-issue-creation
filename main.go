@@ -69,7 +69,7 @@ func main() {
 					Key: jiraProject,
 				},
 				Summary: jiraIssueSummary,
-				IssueLinks: jiraIssueLinks,
+				IssueLinks: []string{jiraIssueLinks},
 			},
 		}
 		issue, _, err := jiraClient.Issue.Create(&i)
